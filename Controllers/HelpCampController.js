@@ -44,8 +44,8 @@ exports.create = [
 
 exports.list = 
     async (req, res, next) => {
-       let help=await HelpCamp.find({})
+       let help=await HelpCamp.find({});
        console.log(help)
-        return res.json(help)
+        return res.json(help);
 
-    }
+    };

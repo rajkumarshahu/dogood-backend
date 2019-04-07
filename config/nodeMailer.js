@@ -1,4 +1,4 @@
-const nodeMailer = require('nodemailer')
+const nodeMailer = require('nodemailer');
 var transporter=nodeMailer.createTransport({
     service:'smtp',
     host:'smtp.elasticemail.com',
@@ -8,5 +8,5 @@ var transporter=nodeMailer.createTransport({
         user: 'dev@unoapp.io',
         pass: '19c14920-cc13-4437-b3c7-95c3ee615a48'
     }
-})
-module.exports=transporter
+});
+module.exports=transporter;
